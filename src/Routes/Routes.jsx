@@ -11,6 +11,8 @@ const router = createBrowserRouter([
         element:<Home></Home>
       }]
     },
-  ]);
+  ], {
+    basename: '/bcic/'
+  });
 
   export default router;
